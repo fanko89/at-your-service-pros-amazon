@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import MaintenanceItems from './MaintenanceItems';
+import logo from './img/aysp_logo.png'; // Replace with actual path to logo
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="App-header d-flex align-items-center justify-content-center">
+        <img src={logo} alt="At Your Service Pros" className="logo" />
+        <h2 className="ms-3">At Your Service Pros </h2><h5>(Approved Products)</h5>
       </header>
+      <main>
+        <MaintenanceItems />
+      </main>
     </div>
   );
 }

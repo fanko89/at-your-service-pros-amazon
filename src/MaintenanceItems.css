@@ -1,0 +1,30 @@
+.container {
+    background-color: #f5f5f5; /* Match the light background color from the site */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-primary {
+    background-color: #d23333; /* Match the red tone from the logo */
+    border-color: #d23333;
+  }
+  
+  .btn-primary:hover {
+    background-color: #c02727;
+    border-color: #c02727;
+  }
+  
+  h2 {
+    color: #333333; /* Dark text to contrast with the light background */
+  }
+  
+  /* Make sure the images are responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  

@@ -3,6 +3,7 @@ import './MaintenanceItems.css';
 import remeHaloBulb from './img/reme_bulb.jpg';
 import cleanComfortFilter20x25 from './img/20x25x4.jpg';
 import cleanComfortFilter20x20 from './img/20x20x4.jpg';
+import cleanComfortFilter16x25 from './img/16x25x4.jpg';
 import aprilaireCartridge from './img/600_700_cart_pan.jpg';
 
 
@@ -10,14 +11,21 @@ const MaintenanceItems = () => {
   const items = [
     {
       name: 'Clean Comfort 20x25x4 Filter',
-      description: '20x25x4 comfort MRV11 is a High-efficiency air filter, suitable for Clean Comfort HVAC systems.',
+      description: '20x25x4 Clean Comfort MRV11 filter provides superior air filtration, ideal for enhancing indoor air quality.',
       image: cleanComfortFilter20x25, 
       affiliateLinkSingle: 'https://amzn.to/47Gqk9Q',
       affiliateLinkBundle: 'https://amzn.to/4gywkp8',
     },
     {
+      name: 'Clean Comfort 16x25x4 Filter',
+      description: '16x25x4 Clean Comfort MRV11 is a High-efficiency air filter, suitable for Clean Comfort HVAC systems.',
+      image: cleanComfortFilter16x25, 
+      affiliateLinkSingle: 'https://amzn.to/3zInp3Z',
+      affiliateLinkBundle: 'https://amzn.to/3ZRTS2e',
+    },
+    {
       name: 'Clean Comfort 20x20x4 Filter',
-      description: '20x20x4 clean comfort MRV11 is ideal for improving air quality, with long-lasting performance.',
+      description: '20x20x4 Clean Comfort MRV11 is ideal for improving air quality, with long-lasting performance.',
       image: cleanComfortFilter20x20,
       affiliateLinkSingle: 'https://amzn.to/4gIItb6',
       affiliateLinkBundle: 'https://amzn.to/3XJKHhE',

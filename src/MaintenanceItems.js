@@ -1,6 +1,7 @@
 import React from 'react';
 import './MaintenanceItems.css';
 import remeHaloBulb from './img/reme_bulb.jpg';
+import remeHaloBulbLED from './img/reme_bulb_led.jpg';
 import cleanComfortFilter20x25 from './img/20x25x4.jpg';
 import cleanComfortFilter20x20 from './img/20x20x4.jpg';
 import cleanComfortFilter16x25 from './img/16x25x4.jpg';
@@ -51,6 +52,13 @@ const MaintenanceItems = () => {
       description: 'Maintain your air purifier’s efficiency with this Reme Halo replacement bulb.',
       image: remeHaloBulb,
       affiliateLinkSingle: 'https://amzn.to/4gzsQCZ',
+      isRemeHalo: true,
+    },
+    {
+      name: 'Reme Halo Bulb LED Replacement',
+      description: 'Enhance indoor air quality with this Reme Halo LED replacement light module.',
+      image: remeHaloBulbLED,
+      affiliateLinkSingle: 'https://amzn.to/3NhkB12',
       isRemeHalo: true,
     },
   ];

@@ -18,7 +18,7 @@ const MaintenanceItems = () => {
     {
       name: 'Clean Comfort 14x25x4 Filter',
       description: '14x25x4 Clean Comfort MERV 11 is a high-efficiency filter for Clean Comfort HVAC systems.',
-      image: cleanComfortFilter16x25, 
+      image: cleanComfortFilter14x25, 
       affiliateLinkSingle: 'https://amzn.to/3zKKZgC',
       affiliateLinkBundle: 'https://amzn.to/3Y0iCCX',
     },
